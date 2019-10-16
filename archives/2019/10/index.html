@@ -47,24 +47,21 @@
     path: '',
     motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
     translation: {
-      copy_button: 'Kopieren',
-      copy_success: 'Kopiert',
-      copy_failure: 'Kopieren fehlgeschlagen'
+      copy_button: 'Copy',
+      copy_success: 'Copied',
+      copy_failure: 'Copy failed'
     },
     sidebarPadding: 40
   };
 </script>
 
-  <meta name="description" content="勤学如春起之苗，不见其增，日有所长。">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
+  <meta property="og:type" content="website">
+<meta property="og:title" content="Hugin">
 <meta property="og:url" content="http://yoursite.com/archives/2019/10/index.html">
-<meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="勤学如春起之苗，不见其增，日有所长。">
+<meta property="og:site_name" content="Hugin">
 <meta property="og:locale" content="zh-Hans">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hexo">
-<meta name="twitter:description" content="勤学如春起之苗，不见其增，日有所长。">
+<meta name="twitter:title" content="Hugin">
   <link rel="canonical" href="http://yoursite.com/archives/2019/10/">
 
 
@@ -79,7 +76,7 @@
   };
 </script>
 
-  <title>Archiv | Hexo</title>
+  <title>Archive | Hugin</title>
   
 
 
@@ -125,14 +122,16 @@
     <div>
       <a href="/" class="brand" rel="start">
         <span class="logo-line-before"><i></i></span>
-        <span class="site-title">Hexo</span>
+        <span class="site-title">Hugin</span>
         <span class="logo-line-after"><i></i></span>
       </a>
     </div>
+        <p class="site-subtitle">勤学如春起之苗，不见其增，日有所长</p>
+      
   </div>
 
   <div class="site-nav-toggle">
-    <div class="toggle" aria-label="Navigationsleiste an/ausschalten">
+    <div class="toggle" aria-label="Toggle navigation bar">
       <span class="toggle-line toggle-line-first"></span>
       <span class="toggle-line toggle-line-middle"></span>
       <span class="toggle-line toggle-line-last"></span>
@@ -152,7 +151,7 @@
       
     
 
-    <a href="/" rel="section"><i class="fa fa-fw fa-home"></i>Startseite</a>
+    <a href="/首页" rel="section"><i class="fa fa-fw fa-question-circle"></i>Home</a>
 
   </li>
       
@@ -161,24 +160,11 @@
       
         
         
-        <li class="menu-item menu-item-about">
+        <li class="menu-item menu-item-categories">
       
     
 
-    <a href="/about/" rel="section"><i class="fa fa-fw fa-user"></i>Über</a>
-
-  </li>
-      
-    
-      
-      
-        
-        
-        <li class="menu-item menu-item-tags">
-      
-    
-
-    <a href="/tags/" rel="section"><i class="fa fa-fw fa-tags"></i>Schlagwörter</a>
+    <a href="/分类" rel="section"><i class="fa fa-fw fa-question-circle"></i>Categories</a>
 
   </li>
       
@@ -191,7 +177,7 @@
       
     
 
-    <a href="/archives/" rel="section"><i class="fa fa-fw fa-archive"></i>Archiv</a>
+    <a href="/归档" rel="section"><i class="fa fa-fw fa-question-circle"></i>Archives</a>
 
   </li>
       
@@ -200,11 +186,24 @@
       
         
         
-        <li class="menu-item menu-item-schedule">
+        <li class="menu-item menu-item-tags">
       
     
 
-    <a href="/schedule/" rel="section"><i class="fa fa-fw fa-calendar"></i>Zeitplan</a>
+    <a href="/标签" rel="section"><i class="fa fa-fw fa-question-circle"></i>Tags</a>
+
+  </li>
+      
+    
+      
+      
+        
+        
+        <li class="menu-item menu-item-about">
+      
+    
+
+    <a href="/关于" rel="section"><i class="fa fa-fw fa-question-circle"></i>About</a>
 
   </li>
       
@@ -259,7 +258,7 @@
         
           
         
-        <span class="collection-header">Öhm..! Ein Artikel. Bleib dran.</span>
+        <span class="collection-header">Um..! 1 post. Keep on posting.</span>
       </div>
       
 
@@ -327,10 +326,10 @@
 
       <ul class="sidebar-nav motion-element">
         <li class="sidebar-nav-toc">
-          Inhaltsverzeichnis
+          Table of Contents
         </li>
         <li class="sidebar-nav-overview">
-          Übersicht
+          Overview
         </li>
       </ul>
 
@@ -342,19 +341,19 @@
       <div class="site-overview-wrap sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
     <img class="site-author-image" itemprop="image"
-      src="/uploads/avatar.png"
-      alt="吴玮   knight">
-  <p class="site-author-name" itemprop="name">吴玮   knight</p>
-  <div class="site-description" itemprop="description">勤学如春起之苗，不见其增，日有所长。</div>
+      src="/uploads/avatar.jpg"
+      alt="吴玮(knight)">
+  <p class="site-author-name" itemprop="name">吴玮(knight)</p>
+  <div class="site-description" itemprop="description"></div>
 </div>
 <div class="site-state-wrap motion-element">
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         
-          <a href="/archives/">
+          <a href="/归档">
         
           <span class="site-state-item-count">1</span>
-          <span class="site-state-item-name">Artikel</span>
+          <span class="site-state-item-name">posts</span>
         </a>
       </div>
     
@@ -383,14 +382,14 @@
   <span class="with-love">
     <i class="fa fa-user"></i>
   </span>
-  <span class="author" itemprop="copyrightHolder">吴玮   knight</span>
+  <span class="author" itemprop="copyrightHolder">吴玮(knight)</span>
 </div>
-  <div class="powered-by">Erstellt mit  <a href="https://hexo.io" class="theme-link" rel="noopener" target="_blank">Hexo</a> v3.9.0
+  <div class="powered-by">Powered by <a href="https://hexo.io" class="theme-link" rel="noopener" target="_blank">Hexo</a> v3.9.0
   </div>
   <span class="post-meta-divider">|</span>
   <div class="theme-info">
       
-    Design – <a href="https://pisces.theme-next.org" class="theme-link" rel="noopener" target="_blank">NexT.Pisces</a> v7.4.1
+    Theme – <a href="https://pisces.theme-next.org" class="theme-link" rel="noopener" target="_blank">NexT.Pisces</a> v7.4.1
   </div>
 
         
